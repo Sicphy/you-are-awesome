@@ -93,7 +93,7 @@ describe(('You are awesome, aren\'t you?'), () => {
     let check;
 
     returnBackInSecond(param)
-      .then((returnedValue) => {
+        .then((returnedValue) => {
         check = returnedValue;
       });
 
